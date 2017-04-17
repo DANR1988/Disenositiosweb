@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: heveltica;
+    
+}
+
+body{
+    width: 1100px;
+    height: 1000px;
+    border: none;
+    margin: auto;
+    border-radius: 12px;
+    background: #ffffff;    
+}
+div.container{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid white;
+    
+}
+.logo{
+    border: 0px solid white;
+    width: 300px;
+    height: 100px;
+}
+
+.title{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 32px;
+    width: 600px;
+    height: 100px;
+    float: left;
+    margin-top: -101px;
+    margin-left: 400px;
+    
+}
+p.text{
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 38px;
+    color: #005883;
+}
+.logo1{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: -102px;
+}
+nav{
+    
+    text-align: center;
+    background-color: white;
+    width: 1000px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 8px;
+    
+    
+}
+ul{
+    list-style: none;
+    width: 1000px;
+    height: 40px;
+    border-radius: 8px;
+    
+    
+}
+li{
+   float: left;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    overflow: hidden;
+    margin-top: 0px;
+    border-radius: 8px;
+    }
+
+div.general:hover{
+    
+    margin-top: -40px;
+    border-radius: 8px;
+}
+
+div.general{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    -webkit-transition: margin-top .2s; 
+    
+}
+div.contuno{
+    width: 200px;
+    height: 36px;
+    background-color: #005883;
+    overflow: hidden;
+    border-bottom: 4px solid #F2880D;
+    
+}
+div.contdos{
+    width: 200px;
+    height: 36px;
+    background-color: #005883;
+    overflow: hidden;
+    border-bottom: 4px solid #F2880D;
+}
+p.cont1{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    
+    
+}
+p.cont2{
+    text-align: center;
+    margin-top: -40px;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+   }
+   
+   
+   section#container{
+       background: none;
+       width: 1000px;
+       height: 250px;
+       margin-left: 10px;
+       border-radius: 8px;
+       border: 1px solid white;
+       
+   }
+   div#unad{
+       border: 1px solid white;
+       margin: 10px auto;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       width: 970px;
+       height: 30px;
+       color: white;
+       background: #005883;
+       padding: 4px;
+       border-radius: 8px;
+       
+       
+   } 
+   div.info1{
+       width: 1025px;
+       height: 400px;
+       margin: auto 30px;
+       border: 1px solid yellow;
+       float: left;
+       border-radius: 12px;
+       background: #B3B3B3;
+            
+   }
+   p.info1{
+       text-align: justify;
+       padding: 10px;
+       font-family: Arial;
+       font-style: italic;
+       color: #333333;
+ }
+ 
+
+
+div.info2{
+       width: 925px;
+       height: 800px;
+       margin: auto 30px;
+       border: 1px solid yellow;
+       float: left;
+       border-radius: 12px;
+       background: #B3B3B3;
+            
+   }
+   p.info2{
+       text-align: justify;
+       padding: 10px;
+       font-family: Arial;
+       font-style: italic;
+       color: #333333;
+       
+   }
+   aside{
+       background: none;
+       width: 350px;
+       height: 870px;
+       float: right;
+       margin-top: -250px;
+       margin-right: 20px;
+       border-radius: 12px;
+       border: 0px solid #B3B3B3;
+   }
+   section#container1{
+       background: none;
+       width: 700px;
+       height: 400px;
+       margin-left: 10px;
+       border-radius: 8px;
+       margin-top: 20px;
+       border: 1px solid white;    
+       
+   }
+   
+   footer{
+       background: black;
+       margin-top: 470px;
+       width: 1100px;
+       height: 200px;
+       border-radius: 12px;
+       margin-bottom: 20px;
+   }
+   p.footer{
+       text-align: center;
+       padding: 10px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: normal;
+       color: white;
+       font-size: 10px;
+       line-height: 1.5px;
+       text-decoration-line: none;
+       }
+   .derecha   { float: right; }

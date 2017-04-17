@@ -1,28 +1,11 @@
 ﻿<html lang="es">
     <head>
         <title>OVA Diseño de Sitios Web</title>
-        <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+        <link rel="stylesheet" type="text/css" href="css/amenaza.css">
         <link rel="icon" href="imagenes/logo.png">
         <meta charset="UTF-8">
         <meta content="Diego alejandro nuñez rodriguez" name="author">
-        <? 
-$archivo = "contador.txt"; 
-$contador = 0; 
-
-$fp = fopen($archivo,"r"); 
-$contador = fgets($fp, 26); 
-fclose($fp); 
-
-++$contador; 
-
-$fp = fopen($archivo,"w+"); 
-fwrite($fp, $contador, 26); 
-fclose($fp); 
-
-echo "Esta página ha sido visitada $contador veces"; 
-?>
-
-<title>Menu Desplegable</title>
+        <title>Menu Desplegable</title>
 	<title>Menu Desplegable</title>
 		<style type="text/css">
 			
@@ -94,7 +77,7 @@ echo "Esta página ha sido visitada $contador veces";
                 </header>
        <nav>  <div id="header">
 			<ul class="nav">
-				<li><a href="">Inicio</a></li>
+				<li><a href="index.html">Inicio</a></li>
 				<li><a href="">Lecturas</a>
 					<ul>
 						<li><a href="amenaza.html">Amenazas</a></li>
@@ -120,73 +103,50 @@ echo "Esta página ha sido visitada $contador veces";
 						<li><a href="jue1.html">Actividad1</a></li>
 						<li><a href="jue2.html">Actividad2</a></li>
                                                 <li><a href="jue3.html">Actividad3</a></li>
-					
 					</ul>
 				</li>
 				<li><a href="autor.html">Autores</a></li>
 			</ul>
 		</div>
    
-       </nav>     <section id="container">
-                    <div id="unad">
-                        <h3><span>Descripción de la Temática General </span></h3>
-                        </div>
-                    <div class="info1">
-                    <p class="info1" >también conocida como ciberseguridad o seguridad de tecnologías de la información, es el área de la informática que se enfoca en la protección de la infraestructura computacional y todo lo relacionado con esta y, especialmente, la información contenida o circulante.<br>
-Un sistema informático puede ser protegido desde un punto de vista lógico (con el desarrollo de software) o físico (vinculado al mantenimiento eléctrico, por ejemplo). Por otra parte, las amenazas pueden proceder desde programas dañinos que se instalan en la computadora del usuario (como un virus) o llegar por vía remota (los delincuentes que se conectan a Internet e ingresan a distintos sistemas). </p>
-                    </div>
-                    </section>
-                  <aside>
-<br>
-                   <img src="imagenes/sin.jpg" alt="seguridad informacion" width="300px" height="350px" HSPACE="10" VSPACE="10"></img>
-                    </aside>
+     
+
                     <section id="container1">
                         <div id="unad">
-                        <h3><span>Subtemas Relevantes Asociados a la Temática General </h3>
+                        <h3><span>Amenaza informática del futuro </h3>
                         </div>
+<div id="derecha" >
+
+</div>
                     <div class="info2">
                     <p class="info2" >
+<p style="clear: right;"><img src="imagenes/AM.jpg" alt="seguridad informacion" width="300px" height="250px"  HSPACE="10" VSPACE="100"></img></p>
+Si en un momento el objetivo de los ataques fue cambiar las plataformas tecnológicas ahora las tendencias cibercriminales indican que la nueva modalidad es manipular los certificados que contienen la información digital. El área semántica, era reservada para los humanos, se convirtió ahora en el núcleo de los ataques debido a la evolución de la Web 2.0 y las redes sociales, factores que llevaron al nacimiento de la generación 3.0.
+<br>
+<br>Las amenazas pueden ser causadas por:
+<br>
+<br>1.Se puede afirmar que “la Web 3.0 otorga contenidos y significados de manera tal que pueden ser comprendidos por las computadoras, las cuales -por medio de técnicas de inteligencia artificial- son capaces de emular y mejorar la obtención de conocimiento, hasta el momento reservada a las personas”.
+<br>
+<br>2.Es decir, se trata de dotar de significado a las páginas Web, y de ahí el nombre de Web semántica o Sociedad del Conocimiento, como evolución de la ya pasada Sociedad de la Información
+<br>
+<br>En este sentido, las amenazas informáticas que viene en el futuro ya no son con la inclusión de troyanos en los sistemas o softwares espías, sino con el hecho de que los ataques se han profesionalizado y manipulan el significado del contenido virtual.<br>
+<br>1“La Web 3.0, basada en conceptos como elaborar, compartir y significar, está representando un desafío para los hackers que ya no utilizan las plataformas convencionales de ataque, sino que optan por modificar los significados del contenido digital, provocando así la confusión lógica del usuario y permitiendo de este modo la intrusión en los sistemas”, La amenaza ya no solicita la clave de homebanking del desprevenido usuario, sino que directamente modifica el balance de la cuenta, asustando al internauta y, a partir de allí, sí efectuar el robo del capital”.
+<br>
+<br>2.Obtención de perfiles de los usuarios por medios, en un principio, lícitos: seguimiento de las búsquedas realizadas, históricos de navegación, seguimiento con geoposicionamiento de los móviles, análisis de las imágenes digitales subidas a Internet, etc.<br>
+<br>Para no ser presa de esta nueva ola de ataques más sutiles, se recomienda:
+<br>Mantener las soluciones activadas y actualizadas..
+<br>Evitar realizar operaciones comerciales en computadoras de uso público o en redes abiertas.
 
-<br>1. Objetivos
-<br>2. Amenazas
-<br>2.1	Ingeniería Social
-<br>2.2	Tipos de amenaza
-<br>2.3	Ejemplos de ataques informáticos
-<br>2.4	Amenaza informática del futuro
-<br>3	Análisis de riesgos
-<br>3.1	Elementos de un análisis de riesgo
-<br>4	Análisis de impacto al negocio
-<br>5	Puesta en marcha de una política de seguridad
-<br>6	Técnicas para asegurar el sistema
-<br>6.1	Respaldo de información
-<br>6.2	Protección contra virus
-<br>6.2.1	Control del software instalado
-<br>6.2.2	Control de la red
-<br>6.3	Protección física de acceso a las redes
-<br>6.3.1	Redes cableadas
-<br>6.3.2	Redes inalámbricas
-<br>6.4	Sanitización
-<br>6.5	Uso de hardware confiable
-</p>
-
-                    </div>
+</p>              </div>
                         </section>
+
                 <footer>
 <p class="footer"><img src="imagenes/pie.png" alt="seguridad informacion" width="400px" height="100px" HSPACE="10" VSPACE="10"></img></p>
                      <p class="footer">Presentado por: <strong> Diego Alejandro Nuñez Rodriguez</strong></p>
                     <p class="footer">Diseño de Sitios Web</p>
                     <p class="footer">copyright: <strong><a href="https://www.unad.edu.co">UNAD</strong></a> 2017</p>
-                 <script>yu=function(id){return document.getElementById(id);}
-							if(localStorage){
-							if(localStorage['visitas']==undefined){
-							localStorage['visitas']=0;
-							}var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
-							var num=localStorage['visitas'];
-							var mensaje=num + " visitas";
-							 yu('cuentavisitas').innerHTML=mensaje;}
-                        </script>
- </footer>
-
+                 
+                    </footer>
 </body>
 	<script src="js/modernizr.js"></script>
 	<script src="js/prefixfree.min.js"></script>
